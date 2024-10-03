@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="819" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,6 +92,153 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="190" y="350" as="sourcePoint" />
             <mxPoint x="250" y="364.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-35" value=":Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="598.75" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-74" value="1.5.1.2: final_check(Selection)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-73">
+          <mxGeometry x="-0.0959" y="2" relative="1" as="geometry">
+            <mxPoint x="61" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-36" value="order:Salon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347.75" y="607.5" width="132.5" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-41" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-35" target="2Whd-dtYRh2gtCwyldFO-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="619.71" as="sourcePoint" />
+            <mxPoint x="340" y="619.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-44" value="1:sign_up_for_a_service(selfData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-41">
+          <mxGeometry x="0.304" y="2" relative="1" as="geometry">
+            <mxPoint x="-40" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-58" value="1.2.1: ClientData = applySel(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-57">
+          <mxGeometry x="0.0795" relative="1" as="geometry">
+            <mxPoint x="-89" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-45" value="area:Area" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="359" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-60" value="1.3.1: ClientData = applySel(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-59">
+          <mxGeometry x="-0.1779" relative="1" as="geometry">
+            <mxPoint x="81" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-46" value="cat:Category" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="359" y="800" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-47" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-36" target="2Whd-dtYRh2gtCwyldFO-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="660" as="sourcePoint" />
+            <mxPoint x="580" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-49" value="1.2: select_an_area(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-47">
+          <mxGeometry x="-0.1379" relative="1" as="geometry">
+            <mxPoint x="86" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-48" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-45" target="2Whd-dtYRh2gtCwyldFO-46">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="760" as="sourcePoint" />
+            <mxPoint x="680" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-52" value="1.3: select_category(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-48">
+          <mxGeometry x="0.0524" relative="1" as="geometry">
+            <mxPoint x="86" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-51" value="1.1 ClientData = compute(selfData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-50">
+          <mxGeometry x="-0.0725" relative="1" as="geometry">
+            <mxPoint x="15" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-65" value="1.4.1:ClientData= applySel(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-64">
+          <mxGeometry x="-0.0952" relative="1" as="geometry">
+            <mxPoint x="-6" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-54" value="service:Service" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="890" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-55" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-46" target="2Whd-dtYRh2gtCwyldFO-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="810" as="sourcePoint" />
+            <mxPoint x="430" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-56" value="1.4: select_service(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-55">
+          <mxGeometry x="0.2197" y="1" relative="1" as="geometry">
+            <mxPoint x="-62" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-66" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-54" target="2Whd-dtYRh2gtCwyldFO-67">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="347.75" y="940" as="sourcePoint" />
+            <mxPoint x="350" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-68" value="1.5: select_master(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-66">
+          <mxGeometry x="-0.2601" relative="1" as="geometry">
+            <mxPoint x="20" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-70" value="1.5.1: Selection=check_the_time(ClientData)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-69">
+          <mxGeometry x="-0.1673" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-67" value="master:Master" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="900" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-77" value="record:Record" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="690" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-78" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="2Whd-dtYRh2gtCwyldFO-36" target="2Whd-dtYRh2gtCwyldFO-77">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="770" as="sourcePoint" />
+            <mxPoint x="510" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Whd-dtYRh2gtCwyldFO-79" value="[Selection=true]&lt;br&gt;1.5.1.1: FinalSelection = getSelction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2Whd-dtYRh2gtCwyldFO-78">
+          <mxGeometry x="0.2707" y="2" relative="1" as="geometry">
+            <mxPoint x="68" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
