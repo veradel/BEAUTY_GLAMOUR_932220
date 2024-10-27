@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="2390" dy="2469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="2283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -889,7 +889,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4n4AFKgTK7ln-x2RVVDE-207" value="Класс Salon - описывает управляющую сущность Салона&lt;br&gt;&lt;br&gt;&lt;div&gt;Catalog - описывает сущность каталога салона:&lt;br&gt;&lt;div&gt;-cat: Catalog - приватный статический экземпляр для каталога&lt;br&gt;+ categories: Component[] - публичная коллекция категорий&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Component - абстрактный класс для структурирования вложенной&lt;br&gt;иерархии категорий:&lt;br&gt;#name: String - наименование категории&lt;br&gt;+display() -&amp;nbsp;абстрактная операция для вывода категорий, &lt;br&gt;и услуг в каждой категории&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Класс Category – отдельная категория, содержащая коллекцию&lt;br&gt;входящих в нее услуг и/или категорий:&lt;br&gt;-components: Component[] – содержит ссылки на другие элементы иерархии;&lt;br&gt;+add(c:Component) – операция по добавлению категории или услуги;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+remove(c:Component) – операция по удалению категории или услуги;&lt;/div&gt;&lt;div&gt;+getSubs():Component[] – операция для предоставления коллекции components;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ display() – реализация абстрактной операции родительского класса&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Service - представляет сущность услуга, ее атрибуты и операции:&lt;br&gt;+display() - реализация абстрактной операции родительского класса&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2593.5" y="512.5" width="480" height="330" as="geometry" />
+          <mxGeometry x="2580" y="358" width="480" height="330" as="geometry" />
         </mxCell>
         <mxCell id="4n4AFKgTK7ln-x2RVVDE-208" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="4n4AFKgTK7ln-x2RVVDE-197" target="4n4AFKgTK7ln-x2RVVDE-196">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
