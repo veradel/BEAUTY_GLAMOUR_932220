@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="1152" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -981,146 +981,128 @@
             <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-3" value="Гость" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-3" value="Гость" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1410" y="1440" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-4" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-4" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1410" y="1590" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-5" value="Записаться на услугу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-5" value="Записаться на услугу" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1490" y="1580" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-6" value="Оплатить онлайн" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-6" value="Оплатить онлайн" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1920" y="1530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-7" value="Оплатить в салоне" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-7" value="Оплатить в салоне" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1930" y="1650" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1880" y="1690" as="sourcePoint" />
             <mxPoint x="1880" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="J7P1dzhC20hAKM5DpoM9-6">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-10" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="J7P1dzhC20hAKM5DpoM9-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1880" y="1570" as="sourcePoint" />
             <mxPoint x="2010" y="1550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="J7P1dzhC20hAKM5DpoM9-7">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-11" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="J7P1dzhC20hAKM5DpoM9-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1880" y="1690" as="sourcePoint" />
             <mxPoint x="1930" y="1640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-13" value="Оплатить услугу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-13" value="Оплатить услугу" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1700" y="1580" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-5" target="J7P1dzhC20hAKM5DpoM9-4">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-14" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-5" target="J7P1dzhC20hAKM5DpoM9-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1720" y="1590" as="sourcePoint" />
             <mxPoint x="1770" y="1540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-15" value="Выбрать конкретного мастера" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="1790" width="120" height="80" as="geometry" />
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-15" value="Выбрать конкретного мастера" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1780" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-16" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-15" target="J7P1dzhC20hAKM5DpoM9-5">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-16" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-15" target="J7P1dzhC20hAKM5DpoM9-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1660" y="1560" as="sourcePoint" />
             <mxPoint x="1820" y="1560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-17" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-5" target="J7P1dzhC20hAKM5DpoM9-13">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-17" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-5" target="J7P1dzhC20hAKM5DpoM9-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1660" y="1560" as="sourcePoint" />
             <mxPoint x="1820" y="1560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-18" value="Применить бонусы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1690" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-19" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-18" target="J7P1dzhC20hAKM5DpoM9-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1750" y="1610" as="sourcePoint" />
-            <mxPoint x="1910" y="1610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-20" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" target="J7P1dzhC20hAKM5DpoM9-13">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-20" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" target="J7P1dzhC20hAKM5DpoM9-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1880" y="1620" as="sourcePoint" />
             <mxPoint x="1910" y="1610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-21" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-4">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-21" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1570" y="1530" as="sourcePoint" />
             <mxPoint x="1425" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-22" value="Выбирать услугу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-22" value="Выбирать услугу" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1490" y="1430" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-3" target="J7P1dzhC20hAKM5DpoM9-22">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-23" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-3" target="J7P1dzhC20hAKM5DpoM9-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1740" y="1550" as="sourcePoint" />
             <mxPoint x="1790" y="1500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-24" value="Добавить услугу в корзину" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-24" value="Добавить услугу в корзину" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1725" y="1470" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-25" value="Проконсультироваться с администратором" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-25" value="Проконсультироваться с администратором" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1700" y="1370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-27" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-24" target="J7P1dzhC20hAKM5DpoM9-22">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-27" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-24" target="J7P1dzhC20hAKM5DpoM9-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1720" y="1560" as="sourcePoint" />
             <mxPoint x="1650" y="1510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-28" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-25" target="J7P1dzhC20hAKM5DpoM9-22">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-28" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-25" target="J7P1dzhC20hAKM5DpoM9-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1700" y="1410" as="sourcePoint" />
             <mxPoint x="1630" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-30" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-30" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="1310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-31" value="&quot;CRUD&quot;&lt;br&gt;Категория" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-31" value="&quot;CRUD&quot;&lt;br&gt;Категория" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1490" y="1230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-32" value="&quot;CRUD&quot;&lt;div&gt;Услуга&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-32" value="&quot;CRUD&quot;&lt;div&gt;Услуга&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1524" y="1330" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-33" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-30" target="J7P1dzhC20hAKM5DpoM9-31">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-33" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-30" target="J7P1dzhC20hAKM5DpoM9-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1780" y="1190" as="sourcePoint" />
             <mxPoint x="1830" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-30" target="J7P1dzhC20hAKM5DpoM9-32">
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-34" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-30" target="J7P1dzhC20hAKM5DpoM9-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1780" y="1190" as="sourcePoint" />
             <mxPoint x="1830" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-36" value="Для данной системы предусмотрено три актёра: администратор,&lt;br&gt;гость и клиент.&lt;br&gt;Администратор – администратор системы, должен поддерживать в&lt;br&gt;актуальном состоянии списки услуг и их категории, отслеживать&lt;br&gt;и вносить все изменения (CRUD – create, retrieve, update, delete).&lt;br&gt;Гость – незарегистрированный пользователь, который может&lt;br&gt;посмотреть каталог услуг и при желании п&lt;span style=&quot;text-align: center;&quot;&gt;роконсультироваться с администратором&amp;nbsp;&lt;/span&gt;и добавить услугу в корзину.&lt;br&gt;Описанная функциональность расширяется для зарегистрированного клиента сценарием «Записаться на услугу», который включает в себя «Оплатить услугу». Оплата может производиться двумя способами: в салоне после сеанса или онлайн в системе. При оформлении записи опциональными действиями являются «Применить бонусы», &quot;Выбрать дату и время&quot; и «Выбрать конкретного мастера».&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2057" y="1340" width="380" height="250" as="geometry" />
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-36" value="Для данной системы предусмотрено три актёра: администратор,&lt;br&gt;гость и клиент.&lt;br&gt;Администратор – администратор системы, должен поддерживать в&lt;br&gt;актуальном состоянии списки услуг и их категории, отслеживать&lt;br&gt;и вносить все изменения (CRUD – create, retrieve, update, delete).&lt;br&gt;Гость – незарегистрированный пользователь, который может&lt;br&gt;посмотреть каталог услуг и при желании п&lt;span style=&quot;text-align: center;&quot;&gt;роконсультироваться с администратором&amp;nbsp;&lt;/span&gt;и добавить услугу в корзину.&lt;br&gt;Описанная функциональность расширяется для зарегистрированного клиента сценарием «Записаться на услугу», который включает в себя «Оплатить услугу». Оплата может производиться двумя способами: в салоне после сеанса или онлайн в системе. При оформлении записи опциональным действием является&amp;nbsp; «Выбрать конкретного мастера».&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2165" y="1340" width="380" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-37" value="Вариант использования: «Оформить заказ».&lt;br&gt;Описание: Клиент хочет записаться на услугу и&amp;nbsp;оплатить её.&lt;br&gt;Предусловие: Клиент находится на странице оформления.&lt;br&gt;В корзину добавлена одна услуга.&lt;br&gt;Основной сценарий:&lt;br&gt;1. Клиент выбирает команду «Записаться».&lt;br&gt;2. Система открывает страницу Выбора «Выбор услуги», &quot;Выбор даты и времени&quot;, &quot;Выбор мастера&quot;.&lt;br&gt;3. Клиент выбирает услугу из категорий.&lt;br&gt;4. Система отображает информацию об услуге.&lt;br&gt;5. Клиент ставит галочку напротив нужной услуги.&lt;br&gt;6. Система отображает страницу оформления записи с выбранной услугой.&lt;br&gt;7. Клиент выбирает команду «Выбрать специалиста».&lt;br&gt;8. Система открывает страницу «Выбор мастера».&lt;div&gt;9. Клиент ставит галочку напротив понравившегося мастера.&lt;br&gt;10. Система отображает страницу оформления записи с услугой и выбранным мастером.&lt;br&gt;11. Клиент выбирает команду «Выбрать дату и время».&lt;br&gt;12. Система открывает страницу «Выбор даты и времени».&lt;/div&gt;&lt;div&gt;13. Клиент выбирает подходящую дату и время.&lt;br&gt;13. Система отображает страницу оформления записи с услугой, мастером и выбранным временем.&lt;/div&gt;&lt;div&gt;14. Клиент выбирает команду &quot;Готово&quot;.&lt;/div&gt;&lt;div&gt;15. Система отображает страницу оформления записи с услугой, мастером и временем.&lt;br&gt;16. Клиент выбирает команду «Заполнить ваши данные» .&lt;/div&gt;&lt;div&gt;17. Система отображает заполненную страницу оформления записи с услугой, мастером, временем и данными клиента.&lt;br&gt;18. Клиент выбирает команду «Далее».&amp;nbsp;&lt;/div&gt;&lt;div&gt;19. Система открывает страницу «Способ оплаты».&amp;nbsp;&lt;/div&gt;&lt;div&gt;Примечание: по умолчанию способ оплаты – «банковской картой».&amp;nbsp;&lt;/div&gt;&lt;div&gt;20. Клиент нажимает&lt;br/&gt;«Оплатить».&amp;nbsp;&lt;/div&gt;&lt;div&gt;21. Система перенаправляет запрос на страницу для ввода реквизитов карты.&amp;nbsp;&lt;/div&gt;&lt;div&gt;21.1. Оплата успешна, система открывает страницу записи с подробной информацией.&amp;nbsp;&lt;/div&gt;&lt;div&gt;21.2. Оплата не прошла. Переход на шаг 17.&lt;/div&gt;&lt;div&gt;&lt;br&gt;Альтернативный сценарий 1:&lt;br&gt;1. Заменяет шаги 9–11 Основного сценария. Начинается, когда на шаге 9 Клиент выбирает любого мастера, а не конкретного, представленного в списке.&lt;br&gt;1.1. Система открывает страницу «Выбор даты и времени».&lt;br&gt;&lt;br&gt;Альтернативный сценарий 2:&lt;br&gt;2. Заменяет шаги 20–21 Основного сценария. Начинается, когда&lt;br&gt;на шаге 20 Клиент выбирает способ оплаты «В салоне».&lt;br&gt;2.1. С&lt;span style=&quot;background-color: initial;&quot;&gt;истема открывает страницу записи с подробной информацией.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="1780" width="640" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-38" value="Выбрать дату и время" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="1770" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="J7P1dzhC20hAKM5DpoM9-39" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-38" target="J7P1dzhC20hAKM5DpoM9-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1550" y="1831" as="sourcePoint" />
-            <mxPoint x="1476" y="1677" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="J7P1dzhC20hAKM5DpoM9-37" value="Вариант использования: «Оформить заказ».&lt;br&gt;Описание: Клиент хочет записаться на услугу и&amp;nbsp;оплатить её.&lt;br&gt;Предусловие: Клиент находится на странице оформления.&lt;br&gt;В корзину добавлена одна услуга.&lt;br&gt;Основной сценарий:&lt;br&gt;1. Клиент выбирает команду «Записаться».&lt;br&gt;2. Система открывает страницу Выбора «Выбор услуги», &quot;Выбор даты и времени&quot;, &quot;Выбор мастера&quot;.&lt;br&gt;3. Клиент выбирает услугу из категорий.&lt;br&gt;4. Система отображает информацию об услуге.&lt;br&gt;5. Клиент ставит галочку напротив нужной услуги.&lt;br&gt;6. Система отображает страницу оформления записи с выбранной услугой.&lt;br&gt;7. Клиент выбирает команду «Выбрать специалиста».&lt;br&gt;8. Система открывает страницу «Выбор мастера».&lt;div&gt;9. Клиент ставит галочку напротив понравившегося мастера.&lt;br&gt;10. Система отображает страницу оформления записи с услугой и выбранным мастером.&lt;br&gt;11. Клиент выбирает команду «Выбрать дату и время».&lt;br&gt;12. Система открывает страницу «Выбор даты и времени».&lt;/div&gt;&lt;div&gt;13. Клиент выбирает подходящую дату и время.&lt;br&gt;13. Система отображает страницу оформления записи с услугой, мастером и выбранным временем.&lt;/div&gt;&lt;div&gt;14. Клиент выбирает команду &quot;Готово&quot;.&lt;/div&gt;&lt;div&gt;15. Система отображает страницу оформления записи с услугой, мастером и временем.&lt;br&gt;16. Клиент выбирает команду «Заполнить ваши данные» .&lt;/div&gt;&lt;div&gt;17. Система отображает заполненную страницу оформления записи с услугой, мастером, временем и данными клиента.&lt;br&gt;18. Клиент выбирает команду «Далее».&amp;nbsp;&lt;/div&gt;&lt;div&gt;19. Система открывает страницу «Способ оплаты».&amp;nbsp;&lt;/div&gt;&lt;div&gt;Примечание: по умолчанию способ оплаты – «банковской картой».&amp;nbsp;&lt;/div&gt;&lt;div&gt;20. Клиент нажимает&lt;br/&gt;«Оплатить».&amp;nbsp;&lt;/div&gt;&lt;div&gt;21. Система перенаправляет запрос на страницу для ввода реквизитов карты.&amp;nbsp;&lt;/div&gt;&lt;div&gt;21.1. Оплата успешна, система открывает страницу записи с подробной информацией.&amp;nbsp;&lt;/div&gt;&lt;div&gt;21.2. Оплата не прошла. Переход на шаг 17.&lt;/div&gt;&lt;div&gt;&lt;br&gt;Альтернативный сценарий 1:&lt;br&gt;1. Заменяет шаги 9–11 Основного сценария. Начинается, когда на шаге 9 Клиент выбирает любого мастера, а не конкретного, представленного в списке.&lt;br&gt;1.1. Система открывает страницу «Выбор даты и времени».&lt;br&gt;&lt;br&gt;Альтернативный сценарий 2:&lt;br&gt;2. Заменяет шаги 20–21 Основного сценария. Начинается, когда&lt;br&gt;на шаге 20 Клиент выбирает способ оплаты «В салоне».&lt;br&gt;2.1. С&lt;span style=&quot;background-color: initial;&quot;&gt;истема открывает страницу записи с подробной информацией.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="1920" width="640" height="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
