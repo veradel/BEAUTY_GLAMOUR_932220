@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="954" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="707" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1087,12 +1087,33 @@
           <mxGeometry x="2165" y="1340" width="380" height="250" as="geometry" />
         </mxCell>
         <mxCell id="J7P1dzhC20hAKM5DpoM9-37" value="Вариант использования: «Оформить заказ».&lt;br&gt;Описание: Клиент хочет записаться на услугу и&amp;nbsp;оплатить её.&lt;br&gt;Предусловие: Клиент находится на странице оформления.&lt;br&gt;В корзину добавлена одна услуга.&lt;br&gt;Основной сценарий:&lt;br&gt;1. Клиент выбирает команду «Записаться».&lt;br&gt;2. Система открывает страницу Выбора «Выбор услуги», &quot;Выбор даты и времени&quot;, &quot;Выбор мастера&quot;.&lt;br&gt;3. Клиент выбирает услугу из категорий.&lt;br&gt;4. Система отображает информацию об услуге.&lt;br&gt;5. Клиент ставит галочку напротив нужной услуги.&lt;br&gt;6. Система отображает страницу оформления записи с выбранной услугой.&lt;br&gt;7. Клиент выбирает команду «Выбрать специалиста».&lt;br&gt;8. Система открывает страницу «Выбор мастера».&lt;div&gt;9. Клиент ставит галочку напротив понравившегося мастера.&lt;br&gt;10. Система отображает страницу оформления записи с услугой и выбранным мастером.&lt;br&gt;11. Клиент выбирает команду «Выбрать дату и время».&lt;br&gt;12. Система открывает страницу «Выбор даты и времени».&lt;/div&gt;&lt;div&gt;13. Клиент выбирает подходящую дату и время.&lt;br&gt;13. Система отображает страницу оформления записи с услугой, мастером и выбранным временем.&lt;/div&gt;&lt;div&gt;14. Клиент выбирает команду &quot;Готово&quot;.&lt;/div&gt;&lt;div&gt;15. Система отображает страницу оформления записи с услугой, мастером и временем.&lt;br&gt;16. Клиент выбирает команду «Заполнить ваши данные» .&lt;/div&gt;&lt;div&gt;17. Система отображает заполненную страницу оформления записи с услугой, мастером, временем и данными клиента.&lt;br&gt;18. Клиент выбирает команду «Далее».&amp;nbsp;&lt;/div&gt;&lt;div&gt;19. Система открывает страницу «Способ оплаты».&amp;nbsp;&lt;/div&gt;&lt;div&gt;Примечание: по умолчанию способ оплаты – «банковской картой».&amp;nbsp;&lt;/div&gt;&lt;div&gt;20. Клиент нажимает&lt;br/&gt;«Оплатить».&amp;nbsp;&lt;/div&gt;&lt;div&gt;21. Система перенаправляет запрос на страницу для ввода реквизитов карты.&amp;nbsp;&lt;/div&gt;&lt;div&gt;21.1. Оплата успешна, система открывает страницу записи с подробной информацией.&amp;nbsp;&lt;/div&gt;&lt;div&gt;21.2. Оплата не прошла. Переход на шаг 17.&lt;/div&gt;&lt;div&gt;&lt;br&gt;Альтернативный сценарий 1:&lt;br&gt;1. Заменяет шаги 9–11 Основного сценария. Начинается, когда на шаге 9 Клиент выбирает любого мастера, а не конкретного, представленного в списке.&lt;br&gt;1.1. Система открывает страницу «Выбор даты и времени».&lt;br&gt;&lt;br&gt;Альтернативный сценарий 2:&lt;br&gt;2. Заменяет шаги 20–21 Основного сценария. Начинается, когда&lt;br&gt;на шаге 20 Клиент выбирает способ оплаты «В салоне».&lt;br&gt;2.1. С&lt;span style=&quot;background-color: initial;&quot;&gt;истема открывает страницу записи с подробной информацией.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1860" y="1920" width="640" height="590" as="geometry" />
+          <mxGeometry x="2192" y="1680" width="640" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="4VbPtu7D-IgGIlWuKy0Y-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="J7P1dzhC20hAKM5DpoM9-3" target="J7P1dzhC20hAKM5DpoM9-25">
+        <mxCell id="4VbPtu7D-IgGIlWuKy0Y-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="J7P1dzhC20hAKM5DpoM9-3" target="J7P1dzhC20hAKM5DpoM9-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1620" y="1580" as="sourcePoint" />
             <mxPoint x="1670" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75_SGg_tYgTKKvyismrk-1" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2020" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75_SGg_tYgTKKvyismrk-3" value="Записаться на услугу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="75_SGg_tYgTKKvyismrk-4" value="Записаться к мастеру" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2090" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="75_SGg_tYgTKKvyismrk-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="75_SGg_tYgTKKvyismrk-1" target="75_SGg_tYgTKKvyismrk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="2040" as="sourcePoint" />
+            <mxPoint x="1590" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75_SGg_tYgTKKvyismrk-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="75_SGg_tYgTKKvyismrk-1" target="75_SGg_tYgTKKvyismrk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="2040" as="sourcePoint" />
+            <mxPoint x="1590" y="1990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
