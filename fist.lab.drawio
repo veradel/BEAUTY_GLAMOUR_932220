@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="615" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1733,37 +1733,37 @@
         <mxCell id="BMc6XieMhLfyj2myE-Bg-67" value="IStatistics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="66.75" y="3231" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-69" value="Модули авторизации в системе заказов и модуль оформления&lt;br&gt;заказов расположены на одном сервере, который задействует&lt;br&gt;внешний сервис sms-провайдеров для авторизации в системе по&lt;br&gt;номеру телефона клиента, внешний сервис доставки, а также сервер аналитики и статистики." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1054" y="3330" width="410" height="30" as="geometry" />
+        <mxCell id="BMc6XieMhLfyj2myE-Bg-69" value="Модули авторизации в системе записей и модуль оформления&lt;br&gt;записей расположены на одном сервере, который задействует&lt;br&gt;внешний сервис администраторов для авторизации в системе по&lt;br&gt;номеру телефона клиента, внешний сервис мастеров, а также сервер аналитики и статистики." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="663.12" y="3260" width="410" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-71" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1029.88" y="3030" width="230" height="250" as="geometry" />
+          <mxGeometry x="639.0000000000001" y="2960" width="230" height="250" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-73" value="&quot;device&quot;&lt;br&gt;Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="3050" width="60" height="30" as="geometry" />
+          <mxGeometry x="709.12" y="2980" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-74" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1066" y="3100" width="164" height="60" as="geometry" />
+          <mxGeometry x="675.12" y="3030" width="164" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-75" value="&quot;executionEnvironment&quot;&lt;br&gt;AuthorizationService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1072.94" y="3120" width="150.12" height="30" as="geometry" />
+          <mxGeometry x="682.0600000000001" y="3050" width="150.12" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-76" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1062" y="3201" width="164" height="60" as="geometry" />
+          <mxGeometry x="671.12" y="3131" width="164" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-77" value="&quot;executionEnvironment&quot;&lt;br&gt;RecordingService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1068.94" y="3221" width="150.12" height="30" as="geometry" />
+          <mxGeometry x="678.0600000000001" y="3151" width="150.12" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-78" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="3030" width="164" height="60" as="geometry" />
+          <mxGeometry x="919.12" y="2960" width="164" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-79" value="&quot;device&quot;&lt;div&gt;AnalyticsService&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1316.94" y="3050" width="150.12" height="30" as="geometry" />
+          <mxGeometry x="926.0600000000001" y="2980" width="150.12" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-80" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="BMc6XieMhLfyj2myE-Bg-78">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1260" y="3060" as="sourcePoint" />
-            <mxPoint x="1210" y="2950" as="targetPoint" />
+            <mxPoint x="869.12" y="2990" as="sourcePoint" />
+            <mxPoint x="819.12" y="2880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-81" value="&quot;http&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMc6XieMhLfyj2myE-Bg-80">
@@ -1772,15 +1772,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-85" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="3100" width="164" height="60" as="geometry" />
+          <mxGeometry x="919.12" y="3030" width="164" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-86" value="&quot;executionEnvironment&quot;&lt;br&gt;ExternalRegistration" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1316.94" y="3120" width="150.12" height="30" as="geometry" />
+        <mxCell id="BMc6XieMhLfyj2myE-Bg-86" value="&quot;executionEnvironment&quot;&lt;br&gt;ExternalAdmin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="926.0600000000001" y="3050" width="150.12" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-87" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BMc6XieMhLfyj2myE-Bg-74">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1259.88" y="3130" as="sourcePoint" />
-            <mxPoint x="1309.88" y="3130" as="targetPoint" />
+            <mxPoint x="869.0000000000001" y="3060" as="sourcePoint" />
+            <mxPoint x="919.0000000000001" y="3060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-88" value="&quot;RMI&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMc6XieMhLfyj2myE-Bg-87">
@@ -1789,15 +1789,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-89" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1315" y="3200" width="164" height="60" as="geometry" />
+          <mxGeometry x="924.12" y="3130" width="164" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-90" value="&quot;executionEnvironment&quot;&lt;br&gt;ExternalMasterService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1321.94" y="3220" width="150.12" height="30" as="geometry" />
+          <mxGeometry x="931.0600000000001" y="3150" width="150.12" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-91" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BMc6XieMhLfyj2myE-Bg-76">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1235" y="3230" as="sourcePoint" />
-            <mxPoint x="1314.88" y="3230" as="targetPoint" />
+            <mxPoint x="844.12" y="3160" as="sourcePoint" />
+            <mxPoint x="924.0000000000001" y="3160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-92" value="&quot;RMI&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMc6XieMhLfyj2myE-Bg-91">
