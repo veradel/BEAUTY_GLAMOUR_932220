@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.9.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="1150" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1563,15 +1563,6 @@
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-27" value="на диаграмме показаны составляющие элементы&lt;br&gt;пакета SalonSystem: пакет RecordProcessing и классы Catalog и Master. Главная по функциональности часть SalonSystem взаимодействует с пакетом графического интерфейса UI для веб- и мобильной вёрстки, а также использует внешние системы, например,&lt;br&gt;для выбора мастеров и сервис регистрации клиентов. Все необходимые данные по складу с расходными матерьялами, записям, клиентам и прочему хранятся в пакете DataManagement, доступ к которому имеют&lt;br&gt;ShopSystem и AnalyticsSystem для формирования статистики по&lt;br&gt;совершенным записям и для прогнозирования роста или упадка&lt;br&gt;спроса на услуги определенной категории." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="93" y="2750" width="380" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-28" value="&amp;nbsp;Analytics System" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="484.5" y="2606" width="116" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-29" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" parent="1" source="BMc6XieMhLfyj2myE-Bg-28" target="BMc6XieMhLfyj2myE-Bg-20" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="518.64" y="2612" as="sourcePoint" />
-            <mxPoint x="518.64" y="2562" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-31" value="Основной компонент Salon требует интерфейсы выбора мастеров&lt;br&gt;IPickMaster и регистрации пользователя IUserRegistrate. Интерфейсы&lt;br&gt;используются в конкретных элементах основного компонента –&lt;br&gt;Master и Administrate. Компонент Administrate содержит логику&lt;br&gt;работы CRUD пользователей системы, а также CRUD элементов&lt;br&gt;структуры каталога CatalogSructure. Для оформления записи реализован интерфейс IGetRecord компонентом RecordingProcess, которому для работы необходимы компоненты CatalogStructure и&lt;br&gt;Master.&lt;br&gt;Также основной компонент Salon задействует компонент&lt;br&gt;с данными DataManagement, который используется компонентом&lt;br&gt;аналитики и статистики AnalyticsSystem." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="81.75" y="3380" width="430" height="30" as="geometry" />
