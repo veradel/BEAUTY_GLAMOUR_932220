@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="1147" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="797" dy="1602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1525,10 +1525,10 @@
             <mxPoint x="345" y="2420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-27" value="На диаграмме показаны составляющие элементы&lt;br&gt;пакета Salon: пакеты Record, Service, Client и Master.&lt;br&gt;Пакет Record зависит от пакетов Client Master и Service. Главная по функциональности часть Salon взаимодействует с пакетом графического интерфейса UI для веб- и мобильной вёрстки, а также использует внешние системы, например,&lt;br&gt;для выбора мастеров и регистрации клиентов. Все необходимые данные по записями, клиентам и мастерам хранятся в пакете DataManagement." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="BMc6XieMhLfyj2myE-Bg-27" value="На диаграмме показаны составляющие элементы&lt;br&gt;пакета Salon: пакеты Record, Service, Client и Master.&lt;br&gt;Пакет Record зависит от пакетов Client Master и Service. Главная по функциональности часть Salon взаимодействует с пакетом графического интерфейса UI для веб- и мобильной вёрстки. Все необходимые данные по записями, клиентам и мастерам хранятся в пакете DataManagement." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="93" y="2650" width="380" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-31" value="Основной компонент Salon требует интерфейсы выбора мастеров&lt;br&gt;IPickMaster и регистрации пользователя IUserRegistrate. Интерфейсы&lt;br&gt;используются в конкретных элементах основного компонента –&lt;br&gt;Master и Administrate. Компонент Administrate содержит логику&lt;br&gt;работы CRUD пользователей системы, а также CRUD элементов&lt;br&gt;структуры каталога CatalogSructure. Для оформления записи реализован интерфейс IGetRecord компонентом RecordingProcess, которому для работы необходимы компоненты CatalogStructure и&lt;br&gt;Master.&lt;br&gt;Также основной компонент Salon задействует компонент&lt;br&gt;с данными DataManagement." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="BMc6XieMhLfyj2myE-Bg-31" value="Основной компонент Salon требует интерфейс регистрации пользователя IUserRegistrate. Интерфейс&lt;br&gt;используется в Administrate. Компонент Administrate содержит логику&lt;br&gt;работы CRUD пользователей системы, а также CRUD элементов&lt;br&gt;структуры каталога CatalogSructure. Для оформления записи реализован интерфейс IGetRecord компонентом RecordingProcess, которому для работы необходимы компоненты CatalogStructure и&lt;br&gt;Master.&lt;br&gt;Также основной компонент Salon задействует компонент&lt;br&gt;с данными DataManagement." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="83.75" y="3335" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-32" value="&quot;component&quot;&lt;br&gt;Salon" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
@@ -1626,18 +1626,6 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-56" value="" style="endArrow=none;html=1;rounded=0;startArrow=halfCircle;startFill=0;" parent="1" target="BMc6XieMhLfyj2myE-Bg-57" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="105.75" y="3009.62" as="sourcePoint" />
-            <mxPoint x="151.75" y="3009.62" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="161.25" y="3000" width="19" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="126.75" y="3000" width="19" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-59" value="" style="endArrow=none;html=1;rounded=0;startArrow=halfCircle;startFill=0;" parent="1" target="BMc6XieMhLfyj2myE-Bg-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="105.75" y="3119.62" as="sourcePoint" />
@@ -1649,9 +1637,6 @@
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="126.75" y="3110" width="19" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="BMc6XieMhLfyj2myE-Bg-62" value="IPickMaster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="42.75" y="3020" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-63" value="IUserRegistrate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="26.75" y="3120" width="110" height="30" as="geometry" />
