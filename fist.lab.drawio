@@ -1529,7 +1529,7 @@
           <mxGeometry x="93" y="2650" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-31" value="Основной компонент Salon требует интерфейсы выбора мастеров&lt;br&gt;IPickMaster и регистрации пользователя IUserRegistrate. Интерфейсы&lt;br&gt;используются в конкретных элементах основного компонента –&lt;br&gt;Master и Administrate. Компонент Administrate содержит логику&lt;br&gt;работы CRUD пользователей системы, а также CRUD элементов&lt;br&gt;структуры каталога CatalogSructure. Для оформления записи реализован интерфейс IGetRecord компонентом RecordingProcess, которому для работы необходимы компоненты CatalogStructure и&lt;br&gt;Master.&lt;br&gt;Также основной компонент Salon задействует компонент&lt;br&gt;с данными DataManagement." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="81.75" y="3380" width="430" height="30" as="geometry" />
+          <mxGeometry x="83.75" y="3335" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BMc6XieMhLfyj2myE-Bg-32" value="&quot;component&quot;&lt;br&gt;Salon" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="138.75" y="2910" width="363" height="50" as="geometry" />
