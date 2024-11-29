@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="2022" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1546" dy="1565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1998,6 +1998,24 @@
         </mxCell>
         <mxCell id="DnTD_oy6NzwFfO64y8cW-28" value="перенесена&lt;br&gt;/ отправить на исполнение на другое время" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="577" y="3640" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DnTD_oy6NzwFfO64y8cW-30" value="Клиент" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="339.75" y="4030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DnTD_oy6NzwFfO64y8cW-31" value="Администратор" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="501.75" y="4030" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DnTD_oy6NzwFfO64y8cW-32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="4060" as="sourcePoint" />
+            <mxPoint x="640" y="4060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DnTD_oy6NzwFfO64y8cW-33" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="4020" as="sourcePoint" />
+            <mxPoint x="460" y="4270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
