@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15" version="25.0.3">
   <diagram name="Страница — 1" id="4IM-DvTE6go9CsLIt1ww">
-    <mxGraphModel dx="1617" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1854" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2233,12 +2233,12 @@
           <mxGeometry x="278.75" y="4160" width="12" height="15" as="geometry" />
         </mxCell>
         <mxCell id="eUA0eCdh65yB4fj4EQe2-9" value="[выбрать любого]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="106.5" y="4152.5" width="150" height="30" as="geometry" />
+          <mxGeometry x="120" y="4160" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eUA0eCdh65yB4fj4EQe2-10" value="Выбранная услуга" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="242.87" y="4125" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eUA0eCdh65yB4fj4EQe2-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="lu_9ARRwN7sjfO6OnTEd-1">
+        <mxCell id="eUA0eCdh65yB4fj4EQe2-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eUA0eCdh65yB4fj4EQe2-2" target="lu_9ARRwN7sjfO6OnTEd-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="271" y="4175" as="sourcePoint" />
             <mxPoint x="216" y="4512.5" as="targetPoint" />
